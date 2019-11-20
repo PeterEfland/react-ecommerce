@@ -7,8 +7,8 @@ const buttonStyles = css`
 
   &:hover {
     background-color: white;
-    background-color: #357ae8;
-    border: none;
+    color: black;
+    border: 1px solid black;
   }
 `;
 
@@ -48,7 +48,6 @@ export const CustomButtonContainer = styled.button`
   text-transform: uppercase;
   font-family: "Open Sans Condensed";
   font-weight: bolder;
-  border: none;
   cursor: pointer;
   display: flex;
   justify-content: center;
